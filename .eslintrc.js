@@ -50,7 +50,10 @@ module.exports = {
     /**
      * ECMAScript6
      */
-    'arrow-spacing': ['error', { before: true, after: true }], // 强制箭头函数的箭头前后使用空格
+    'arrow-spacing': ['error', {
+      before: true,
+      after: true
+    }], // 强制箭头函数的箭头前后使用空格
     'no-var': 2, // 禁止使用 var 声明变量
     'object-shorthand': 2, // 要求使用对象方法名和属性名简写
     'prefer-arrow-callback': 2, // 要求回调函数使用箭头函数
@@ -66,11 +69,19 @@ module.exports = {
     'comma-dangle': 2, // 禁止末尾逗号
     'eol-last': 2, // 要求文件末尾存在空行
     // 对象冒号前禁止空格，冒号后必须空格
-    'key-spacing': ['error', { beforeColon: false, afterColon: true }],
+    'key-spacing': ['error', {
+      beforeColon: false,
+      afterColon: true
+    }],
     // 关键字（if、else等）前后必须有空格
-    'keyword-spacing': ['error', { before: true, after: true }],
+    'keyword-spacing': ['error', {
+      before: true,
+      after: true
+    }],
     // 禁止出现多行空行
-    'no-multiple-empty-lines': ['error', { max: 1 }],
+    'no-multiple-empty-lines': ['error', {
+      max: 1
+    }],
     semi: ['error', 'never'], // 禁止末尾分号
     quotes: ['error', 'single'], // 强制使用单引号
     'space-infix-ops': 2, // 操作符周围必须有空格
